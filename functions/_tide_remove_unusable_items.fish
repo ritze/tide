@@ -3,17 +3,7 @@ function _tide_remove_unusable_items
     set -l removed_items
     for item in direnv git nix_shell
         contains $item $tide_left_prompt_items $tide_right_prompt_items || continue
-
-        set -l cli_names $item
-        switch $item
-            case distrobox # there is no 'distrobox' command inside the container
-                set cli_names distrobox-export # 'distrobox-export' and 'distrobox-host-exec' are available
-            case nix_shell
-                set cli_names nix nix-shell
-            case python
-                set cli_names python python3
-        end
-        type --query $cli_names || set -a removed_items $item
+        type --query $item || set -a removed_items $item
     end
 
     set -U _tide_left_items (for item in $tide_left_prompt_items
