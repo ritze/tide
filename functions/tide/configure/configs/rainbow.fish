@@ -54,9 +54,6 @@ tide_right_prompt_prefix 
 tide_right_prompt_separator_diff_color 
 tide_right_prompt_separator_same_color 
 tide_right_prompt_suffix ''
-tide_shlvl_bg_color 808000
-tide_shlvl_color 000000
-tide_shlvl_threshold 1
 tide_status_bg_color 2E3436
 tide_status_bg_color_failure CC0000
 tide_status_color 4E9A06

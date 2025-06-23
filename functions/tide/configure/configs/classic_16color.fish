@@ -33,8 +33,6 @@ tide_pwd_bg_color black
 tide_pwd_color_anchors brcyan
 tide_pwd_color_dirs cyan
 tide_pwd_color_truncated_dirs magenta
-tide_shlvl_bg_color black
-tide_shlvl_color yellow
 tide_status_bg_color black
 tide_status_bg_color_failure black
 tide_status_color green

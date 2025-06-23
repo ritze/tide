@@ -13,7 +13,6 @@ tide_prompt_icon_connection ' '
 tide_pwd_icon
 tide_pwd_icon_home
 tide_pwd_icon_unwritable 
-tide_shlvl_icon 
 tide_status_icon ✔
 tide_status_icon_failure ✘
 tide_vi_mode_icon_default D
