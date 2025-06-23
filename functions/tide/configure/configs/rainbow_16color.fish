@@ -25,8 +25,6 @@ tide_git_color_untracked black
 tide_git_color_upstream black
 tide_jobs_bg_color brblack
 tide_jobs_color green
-tide_os_bg_color white
-tide_os_color black
 tide_private_mode_bg_color brwhite
 tide_private_mode_color black
 tide_prompt_color_frame_and_connection brblack

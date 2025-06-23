@@ -37,8 +37,6 @@ tide_left_prompt_prefix ''
 tide_left_prompt_separator_diff_color 
 tide_left_prompt_separator_same_color 
 tide_left_prompt_suffix 
-tide_os_bg_color $os_branding_bg_color
-tide_os_color $os_branding_color
 tide_private_mode_bg_color F1F3F4
 tide_private_mode_color 000000
 tide_prompt_add_newline_before true
