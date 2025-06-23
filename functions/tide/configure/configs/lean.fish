@@ -27,8 +27,6 @@ tide_docker_color 2496ED
 tide_docker_default_contexts default colima
 tide_elixir_bg_color normal
 tide_elixir_color 4E2A8E
-tide_gcloud_bg_color normal
-tide_gcloud_color 4285F4
 tide_git_bg_color normal
 tide_git_bg_color_unstable normal
 tide_git_bg_color_urgent normal
@@ -83,7 +81,7 @@ tide_pwd_markers .bzr .citc .git .hg .node-version .python-version .ruby-version
 tide_python_bg_color normal
 tide_python_color 00AFAF
 tide_right_prompt_frame_enabled false
-tide_right_prompt_items status cmd_duration context jobs direnv bun node python rustc java php pulumi ruby go gcloud kubectl distrobox toolbox terraform aws nix_shell crystal elixir zig
+tide_right_prompt_items status cmd_duration context jobs direnv bun node python rustc java php pulumi ruby go kubectl distrobox toolbox terraform aws nix_shell crystal elixir zig
 tide_right_prompt_prefix ' '
 tide_right_prompt_separator_diff_color ' '
 tide_right_prompt_separator_same_color ' '
