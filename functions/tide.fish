@@ -22,6 +22,5 @@ function _tide_help
         '  -h or --help     print this help message' \
         '' \
         'Subcommands:' \
-        '  configure   run interactive configuration wizard' \
-        '  reload      reload tide configuration'
+        '  configure   run interactive configuration wizard'
 end
