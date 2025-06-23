@@ -53,9 +53,6 @@ tide_status_bg_color normal
 tide_status_bg_color_failure normal
 tide_status_color $_tide_color_dark_green
 tide_status_color_failure D70000
-tide_time_bg_color normal
-tide_time_color 5F8787
-tide_time_format %T
 tide_vi_mode_bg_color_default normal
 tide_vi_mode_bg_color_insert normal
 tide_vi_mode_bg_color_replace normal

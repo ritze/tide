@@ -55,9 +55,6 @@ tide_status_bg_color 2E3436
 tide_status_bg_color_failure CC0000
 tide_status_color 4E9A06
 tide_status_color_failure FFFF00
-tide_time_bg_color D3D7CF
-tide_time_color 000000
-tide_time_format %T
 tide_vi_mode_bg_color_default 949494
 tide_vi_mode_bg_color_insert 87AFAF
 tide_vi_mode_bg_color_replace 87AF87
