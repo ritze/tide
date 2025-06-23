@@ -10,8 +10,6 @@ tide_direnv_bg_color black
 tide_direnv_bg_color_denied black
 tide_direnv_color bryellow
 tide_direnv_color_denied brred
-tide_docker_bg_color black
-tide_docker_color blue
 tide_git_bg_color black
 tide_git_bg_color_unstable black
 tide_git_bg_color_urgent black

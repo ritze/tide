@@ -12,9 +12,6 @@ tide_context_hostname_parts 1
 tide_direnv_bg_color normal
 tide_direnv_bg_color_denied normal
 tide_direnv_color_denied FF0000
-tide_docker_bg_color normal
-tide_docker_color 2496ED
-tide_docker_default_contexts default colima
 tide_git_bg_color normal
 tide_git_bg_color_unstable normal
 tide_git_bg_color_urgent normal
