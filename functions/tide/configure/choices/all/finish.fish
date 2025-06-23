@@ -42,5 +42,5 @@ function _tide_finish
 end
 
 function _tide_print_configure_current_options
-    _tide_fish_colorize "tide configure --auto $_tide_configure_current_options"
+    echo -ns "tide configure --auto $_tide_configure_current_options" | fish_indent --ansi
 end
