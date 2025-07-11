@@ -25,7 +25,5 @@ function prompt_connection
     switch $_tide_configure_style
         case lean
             _next_choice all/prompt_connection_andor_frame_color
-        case classic rainbow
-            _next_choice powerline/powerline_right_prompt_frame
     end
 end

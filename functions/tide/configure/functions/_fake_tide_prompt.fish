@@ -18,12 +18,6 @@ function _fake_tide_prompt
         end)
 
     if set -q _fake_tide_prompt_and_frame_color # If prompt is two lines
-        test "$fake_tide_left_prompt_frame_enabled" = true &&
-            set left[1] "$_fake_tide_prompt_and_frame_color╭─$left[1]" &&
-            set left[2] "$_fake_tide_prompt_and_frame_color╰─$left[2]"
-        test "$fake_tide_right_prompt_frame_enabled" = true &&
-            set right[1] "$right[1]$_fake_tide_prompt_and_frame_color─╮" &&
-            set right[2] "$right[2]$_fake_tide_prompt_and_frame_color─╯"
 
         # 5 = @PWD@ length which will be replaced
         math $fake_columns+5-(string length --visible "$left[1]$right[1]") | read -lx dist_btwn_sides

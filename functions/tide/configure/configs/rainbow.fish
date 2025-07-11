@@ -28,7 +28,6 @@ tide_git_truncation_strategy
 tide_jobs_bg_color 444444
 tide_jobs_color 4E9A06
 tide_jobs_number_threshold 1000
-tide_left_prompt_frame_enabled true
 tide_left_prompt_items pwd git newline
 tide_left_prompt_prefix ''
 tide_left_prompt_separator_diff_color 
@@ -46,7 +45,6 @@ tide_pwd_bg_color 3465A4
 tide_pwd_color_anchors E4E4E4
 tide_pwd_color_dirs E4E4E4
 tide_pwd_color_truncated_dirs BCBCBC
-tide_right_prompt_frame_enabled true
 tide_right_prompt_prefix 
 tide_right_prompt_separator_diff_color 
 tide_right_prompt_separator_same_color 

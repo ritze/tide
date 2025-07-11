@@ -1,8 +1,5 @@
 function prompt_connection_andor_frame_color
-    if test "$_tide_16color" = true ||
-            test "$fake_tide_left_prompt_frame_enabled" = false -a \
-                "$fake_tide_right_prompt_frame_enabled" = false -a \
-                "$fake_tide_prompt_icon_connection" = ' '
+    if test "$_tide_16color" = true
         _next_choice all/prompt_spacing
         return 0
     end
