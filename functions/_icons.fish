@@ -8,7 +8,6 @@ tide_jobs_icon 
 tide_private_mode_icon 󰗹
 tide_prompt_icon_connection ' '
 tide_pwd_icon
-tide_pwd_icon_home
 tide_pwd_icon_unwritable 
 tide_status_icon ✔
 tide_status_icon_failure ✘
