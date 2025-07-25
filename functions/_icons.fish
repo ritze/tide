@@ -5,7 +5,6 @@ tide_character_vi_icon_visual V
 tide_cmd_duration_icon
 tide_git_icon
 tide_jobs_icon 
-tide_os_icon $os_branding_icon
 tide_private_mode_icon 󰗹
 tide_prompt_icon_connection ' '
 tide_pwd_icon
