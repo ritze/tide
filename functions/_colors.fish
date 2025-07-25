@@ -6,10 +6,6 @@ tide_context_bg_color brblack
 tide_context_color_default yellow
 tide_context_color_root yellow
 tide_context_color_ssh yellow
-tide_direnv_bg_color bryellow
-tide_direnv_bg_color_denied brred
-tide_direnv_color black
-tide_direnv_color_denied black
 tide_git_bg_color green
 tide_git_bg_color_unstable yellow
 tide_git_bg_color_urgent red

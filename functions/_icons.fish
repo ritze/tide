@@ -3,7 +3,6 @@ tide_character_vi_icon_default ❮
 tide_character_vi_icon_replace ▶
 tide_character_vi_icon_visual V
 tide_cmd_duration_icon
-tide_direnv_icon ▼
 tide_git_icon
 tide_jobs_icon 
 tide_os_icon $os_branding_icon
