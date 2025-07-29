@@ -1,7 +1,7 @@
 function _tide_remove_unusable_items
     # Remove tool-specific items for tools the machine doesn't have installed
     set -l removed_items
-    for item in direnv git nix_shell
+    for item in git
         contains $item $tide_left_prompt_items $tide_right_prompt_items || continue
         type --query $item || set -a removed_items $item
     end
